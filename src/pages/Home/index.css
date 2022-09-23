@@ -1,0 +1,60 @@
+
+.container{
+    width: 400px;
+    margin: 48px auto auto;
+    border: 1px solid #000;
+    padding: 12px;
+}
+.container .title{
+    width: auto;
+    font-size: 36px;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+.edit{
+    width: 300px;
+    margin: 16px auto;
+    align-items: center;
+}
+.text-input {
+    margin-top: 16px;
+    height: 24px;
+    width: 300px;
+    transition-property: border-top-color,border-right-color,border-bottom-color,border-left-color;
+    transition-duration: .3s;
+}
+.text-input:hover{
+    border-left-color: greenyellow;
+    border-top-color: greenyellow;
+    border-bottom-color: greenyellow;
+    border-right-color: greenyellow;
+}
+
+.edit-button{
+    margin-top: 16px;
+    color: aliceblue;
+    background-color: #4f4040;
+    width: 300px;
+    height: 36px;
+    font-size: 24px;
+}
+
+.list{
+    min-height: 50px;
+    margin-left: 16px;
+}
+
+.list-item{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-size: 16px;
+}
+.list-item-button{
+    background-color: indianred;
+    color: white;
+}
+
